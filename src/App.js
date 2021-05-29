@@ -1,12 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import About from './component/About';
+import Home from './component/Home';
+import AddUser from './component/AddUser';
+//import List from './component/List';
 
 function App() {
-  let title = 'Hi, Bidhan and Aishi Ghosh';
   return (
     <div className="App">
-      <h1>{title}</h1>
-      
+            <About></About>
+            <Home></Home>
+            <AddUser></AddUser>
+            {/* <List></List> */}
     </div>
   );
 }
