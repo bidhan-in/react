@@ -6,6 +6,7 @@ import AddUser from './component/AddUser';
 import Users from './component/Users';
 import {Navbar,Nav} from 'react-bootstrap';
 import {Route,link,BrowserRouter as Router,Switch} from 'react-router-dom';
+import Images from './component/Images';
 
 
 function App() {
@@ -18,8 +19,10 @@ function App() {
             <Navbar.Brand href="/">LOGO</Navbar.Brand>
             <Nav className="mr-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/about">About</Nav.Link>
-              <Nav.Link href="/users-nav">Users</Nav.Link>
+              <Nav.Link href="/About">About</Nav.Link>
+              <Nav.Link href="/Users">Users</Nav.Link>
+              <Nav.Link href="/AddUser">Users</Nav.Link>
+              <Nav.Link href="/Images">Images</Nav.Link>
             </Nav>
 
           </Navbar>
@@ -36,6 +39,9 @@ function App() {
           </Route>
           <Route path="/AddUser">
             <AddUser />
+          </Route>
+          <Route path="/Images">
+            <Images />
           </Route>
           <Route path="/">
             <Home />
