@@ -1,10 +1,10 @@
 import React from 'react';
-function List(){
-    let title = 'List';
+function Users(){
+    let title = 'Users';
     return(
         <div>
             <h1>{title}</h1> 
         </div>
     )
 }
-export default List;
+export default Users;
