@@ -22,7 +22,7 @@ function App() {
               <Nav.Link href="/About">About</Nav.Link>
               <Nav.Link href="/Users">Users</Nav.Link>
               <Nav.Link href="/AddUser">Users</Nav.Link>
-              <Nav.Link href="/Images">Images</Nav.Link>
+              <Nav.Link href="/Images">Github.com/users</Nav.Link>
             </Nav>
 
           </Navbar>
